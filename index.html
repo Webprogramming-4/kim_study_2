@@ -46,8 +46,9 @@
             domText.textContent = "HTML 문서를 브라우저가 이해할 수 있게 객체(트리 구조) 로 바꾼 모델이다";
         });
         btnAdd.addEventListener("click", function() {
-            domText.textContent += "첫번째로는 html요소를 js에서 가져온다. 두번째로는 그 요소의 내용을 바꾼다. 세번째로는 바뀐 내용을 다시 html에 반영한다.";
+            domText.innerHTML += "<br>첫번째로는 html요소를 js에서 가져온다. <br>두번째로는 그 요소의 내용을 바꾼다. <br>세번째로는 바뀐 내용을 다시 html에 반영한다.";
         });
     </script>
 </body>
+
 </html>
