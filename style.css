@@ -1,0 +1,23 @@
+#title {
+    color : black;
+    font-size : 35px;
+}
+#dom {
+    color : lightgreen;
+    font-size : 20px;
+}
+
+
+h1 {
+    color : black;
+    font-size : 25px;
+}
+button {
+    margin-top : 20px;
+    font-size : 15px;
+    padding : 10px;
+    background-color : lightgray;
+    border : none;
+    border-radius : 5px;
+    cursor : pointer;
+}
